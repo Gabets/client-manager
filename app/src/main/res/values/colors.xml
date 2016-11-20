@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#b5c7a3</color>
+    <color name="text">#0b1500</color>
+    <color name="editText">#00137b</color>
+    <color name="btnBack">#2b2b2a</color>
+    <color name="btnText">#bfdf9f</color>
+    <color name="select_item">#44DD99</color>
+    <color name="background_dialog">#339900</color>
+</resources>

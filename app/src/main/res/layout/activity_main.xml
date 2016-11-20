@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/sorting"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30sp"
+                android:textColor="@color/text"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnActivityType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="30sp"
+                android:textColor="@color/btnText"
+                tools:background="@color/btnBack"
+                android:onClick="onClickBtnSort"
+                android:text="@string/activity_type" />
+
+            <Button
+                android:id="@+id/btnLastCalls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:onClick="onClickBtnSort"
+                android:textSize="30sp"
+                android:textColor="@color/btnText"
+                tools:background="@color/btnBack"
+                android:text="@string/last_calls" />
+
+            <Button
+                android:id="@+id/btnCompanyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:onClick="onClickBtnSort"
+                android:textSize="30sp"
+                android:textColor="@color/btnText"
+                tools:background="@color/btnBack"
+                android:text="@string/company_name" />
+
+            <Button
+                android:id="@+id/btnAddClient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="5dp"
+                android:onClick="onClickBtnAddClient"
+                android:textSize="30sp"
+                android:textColor="@color/btnText"
+                tools:background="@color/btnBack"
+                android:text="@string/add_client" />
+
+            <Button
+            android:id="@+id/btnSetTimers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickBtnSetTimers"
+            android:text="@string/setting_timers"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="30sp"
+            android:textColor="@color/btnText"
+            tools:background="@color/btnBack"/>
+
+            <Button
+                android:id="@+id/btnAboutApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAboutApp"
+                android:text="@string/about_app"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="30sp"
+                android:textColor="@color/btnText"
+                tools:background="@color/btnBack"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

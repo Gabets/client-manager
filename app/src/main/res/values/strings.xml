@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Client Manager</string>
+    <string name="sorting">SORTING BY:</string>
+    <string name="activity_type">ACTIVITY TYPE</string>
+    <string name="last_calls">LAST CALLS</string>
+    <string name="company_name">COMPANY NAME</string>
+    <string name="add_client">ADD NEW CLIENT</string>
+
+    <string name="client_name">COMPANY/CLIENT NAME:</string>
+    <string name="client_address">ADDRESS:</string>
+    <string name="client_contact_name">CONTACT NAME:</string>
+    <string name="client_mobile">MOBILE:</string>
+    <string name="client_activity_type">TYPE OF COMPANY ACTIVITY:</string>
+    <string name="client_last_call">LAST CALL DATE (yyyy.mm.dd):</string>
+    <string name="client_juridical_phone">JURIDICAL PHONE:</string>
+    <string name="client_email">E-MAIL:</string>
+    <string name="client_fax">FAX:</string>
+    <string name="client_notes">NOTES:</string>
+    <string name="client_priority_level">PRIORITY LEVEL:</string>
+    <string name="rbLost">CLIENT LOST</string>
+    <string name="rbTransmit">TRANSMIT TO OTHER MANAGER</string>
+    <string name="rbWait">CLIENT CALL WAITING</string>
+    <string name="rbAction">IN ACTION</string>
+
+    <string name="btn_save">SAVE</string>
+    <string name="btn_cancel">CANCEL</string>
+
+    <string name="input_name">Input client name!</string>
+    <string name="input_success">The data is successfully included.</string>
+    <string name="btn_save_changes">SAVE CHANGES</string>
+    <string name="btn_delete">DELETE</string>
+    <string name="btn_call">CALL</string>
+    <string name="btn_send_sms">SEND SMS</string>
+    <string name="btn_send_email">SEND EMAIL</string>
+    <string name="data_not_found">Data not found!</string>
+    <string name="changes_saved">CHANGES SAVED.</string>
+    <string name="write_message">Write message.</string>
+    <string name="setting_timers">TIMERS SETTINGS</string>
+    <string name="add_timer">ADD TIMER</string>
+    <string name="current_timers">CURRENT TIMERS:</string>
+    <string name="input_timer_success">Timer successfully included.</string>
+    <string name="timer_deleted_toast">Timer deleted.</string>
+    <string name="delete_dialog_title">DELETE TIMER?</string>
+    <string name="notifContact">Contact with the client!</string>
+    <string name="about_app">ABOUT APP</string>
+    <string name="about_app_text"> Client Manager is a database app, containing all the essential data about your clients combined with the notification functionality, which reminds you to contact all the business clients you actively working with (priority level = in action). \n The main screen of the app allows you to right away browse one of the three types of the client lists: sorted by business activity, sorted by the last contact date or by company name. On the screen opened you can then click on the needed client name and get all the previously infed data. Also you can: \n * change the client info (don’t forget to click the \"save changes\" button after that!); \n * delete client from the database; \n * call the number specified in the \"mobile number\" field; \n(Important: \"LAST CALL DATE\" field is not automatically updated since the app can not track the results of your phone call, so, please, update the info manually, if needed) \n * send an SMS to the number, which is specified in \"mobile number\" field; \n * send an e-mail to the e-mail address, specified in the corresponding field; \n \n \"ADD CLIENT\" button allows to add new client data to the database. \n \"TIMERS SETTINGS\" button opens the list of the active timers. Click on one of the timers from the list allows you to delete it. To add the timer, click on the \"ADD TIMER\" button above the timers list. Every timer shows a specific time for the notifications that will remind you to contact the clients. These notifications will be sent only in case you have the clients with the \"IN ACTION\" status set and the last call was made more than one day ago. In that case you will receive a full list of these clients. Click on the notification itself will launch the app.</string>
+</resources>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvClientName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text"
+                android:text="@string/client_name" />
+
+            <EditText
+                android:id="@+id/etClientName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/editText"
+                android:inputType="text">
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/tvClientAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text"
+                android:text="@string/client_address" />
+            <EditText
+                android:id="@+id/etClientAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/editText"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/tvClientContactName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text"
+                android:text="@string/client_contact_name" />
+            <EditText
+                android:id="@+id/etClientContactName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/editText"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/tvClientMobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text"
+                android:text="@string/client_mobile" />
+            <EditText
+                android:id="@+id/etClientMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/editText"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/tvClientActivityType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text"
+                android:text="@string/client_activity_type" />
+            <EditText
+                android:id="@+id/etClientActivityType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/editText"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/tvClientLastCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text"
+                android:text="@string/client_last_call" />
+            <EditText
+                android:id="@+id/etClientLastCall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/editText"
+                android:inputType="date" />
+
+            <TextView
+                android:id="@+id/tvClientJuridicalPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text"
+                android:text="@string/client_juridical_phone" />
+            <EditText
+                android:id="@+id/etClientJuridicalPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/editText"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/tvClientEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text"
+                android:text="@string/client_email" />
+            <EditText
+                android:id="@+id/etClientEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/editText"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/tvClientFax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text"
+                android:text="@string/client_fax" />
+            <EditText
+                android:id="@+id/etClientFax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/editText"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/tvClientNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text"
+                android:text="@string/client_notes" />
+            <EditText
+                android:id="@+id/etClientNotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/editText"
+                android:inputType="text"/>
+
+            <TextView
+                android:id="@+id/tvClientPriorityLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text"
+                android:text="@string/client_priority_level" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rgClientPriorityLevel">
+
+                <RadioButton
+                    android:id="@+id/rbLost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="30sp"
+                    android:text="@string/rbLost" />
+
+                <RadioButton
+                    android:id="@+id/rbTransmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="30sp"
+                    android:text="@string/rbTransmit" />
+
+                <RadioButton
+                    android:id="@+id/rbWait"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="30sp"
+                    android:text="@string/rbWait" />
+
+                <RadioButton
+                    android:id="@+id/rbAction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="30sp"
+                    android:text="@string/rbAction" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:textColor="@color/btnText"
+                    tools:background="@color/btnBack"
+                    android:onClick="onClickBtnSave"
+                    android:text="@string/btn_save_changes" />
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:textColor="@color/btnText"
+                    tools:background="@color/btnBack"
+                    android:onClick="onClickBtnDelete"
+                    android:text="@string/btn_delete" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnCall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:textColor="@color/btnText"
+                    tools:background="@color/btnBack"
+                    android:onClick="onClickBtnCall"
+                    android:text="@string/btn_call" />
+
+                <Button
+                    android:id="@+id/btnSendSMS"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:textColor="@color/btnText"
+                    tools:background="@color/btnBack"
+                    android:onClick="onClickBtnSendSMS"
+                    android:text="@string/btn_send_sms" />
+                <Button
+                    android:id="@+id/btnSendMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:textColor="@color/btnText"
+                    tools:background="@color/btnBack"
+                    android:onClick="onClickBtnSendMail"
+                    android:text="@string/btn_send_email" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

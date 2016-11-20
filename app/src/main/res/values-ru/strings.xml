@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Менеджер клиентов</string>
+    <string name="activity_type">типу деятельности</string>
+    <string name="add_client">добавить клиента</string>
+    <string name="company_name">названию</string>
+    <string name="last_calls">последним звонкам</string>
+    <string name="sorting">Сортировать по:</string>
+    <string name="btn_cancel">отмена</string>
+    <string name="btn_save">сохранить</string>
+    <string name="client_activity_type">тип деятельности</string>
+    <string name="client_address">адрес</string>
+    <string name="client_contact_name">контактное лицо</string>
+    <string name="client_email">электронная почта</string>
+    <string name="client_fax">факс</string>
+    <string name="client_juridical_phone">юридический телефон</string>
+    <string name="client_last_call">дата последнего звонка (гггг.мм.дд)</string>
+    <string name="client_mobile">мобильный телефон</string>
+    <string name="client_name">имя компании/клиента</string>
+    <string name="client_notes">примечания</string>
+    <string name="client_priority_level">уровень приоритета</string>
+    <string name="input_name">Введите имя клиента!</string>
+    <string name="input_success">Данные успешно внесены.</string>
+    <string name="rbAction">активное сотрудничество</string>
+    <string name="rbLost">клиент потерян</string>
+    <string name="rbTransmit">передать другому менеджеру</string>
+    <string name="rbWait">ожидание звонка от клиента</string>
+    <string name="btn_save_changes">сохранить изменения</string>
+    <string name="btn_send_email">отправить емэйл</string>
+    <string name="btn_send_sms">отправить смс</string>
+    <string name="btn_delete">удалить</string>
+    <string name="btn_call">позвонить</string>
+    <string name="data_not_found">Данные не найдены!</string>
+    <string name="changes_saved">Изменения сохранены.</string>
+    <string name="write_message">Наберите сообщение</string>
+    <string name="setting_timers">настройка таймеров</string>
+    <string name="add_timer">Добавить таймер</string>
+    <string name="current_timers">Текущие таймеры:</string>
+    <string name="input_timer_success">Таймер успешно добавлен.</string>
+    <string name="timer_deleted_toast">Таймер удалён</string>
+    <string name="delete_dialog_title">Удалить таймер?</string>
+    <string name="notifContact">Свяжитесь с клиентом!</string>
+    <string name="about_app">О приложении</string>
+    <string name="about_app_text"> Менеджер клиентов представляет из себя Базу Данных, содержащую основные данные о клиентах, совмещённую с функцией напоминания о необходимости связаться с теми клиентами, с которыми ведётся активное сотрудничество. \n На главном экране вы сразу можете перейти к одному из трёх отсортированных списков клиентов: по типу деятельности, дате последнего звонка и по названию. В открывшемся поле, нажав на необходимого клиента, Вы получаете доступ к введённой информации а так же можете:\n * изменить информацию о клиенте (не забудьте потом нажать на кнопку \"сохранить изменения\"); \n * удалить клиента из базы; \n * позвонить по телефону, указанному в поле \"мобильный телефон\"; \n (внимание! поле \"дата последнего звонка\" не обновляется автоматически, приложение ничего не знает о результате Вашего звонка клиенту, при необходимости, обновите информацию вручную) \n * отправить смс на телефон, указанный в поле \"мобильный телефон\"; \n * отправить емэйл на электронную почту, указанную в соответствующем поле;  \n \n Кнопка \"добавить клиента\" позволяет внести данные о новом клиенте в базу. \n \n Кнопка \"настройка таймеров\" открывает список активных таймеров. Нажатие на таймер из списка позволяет его удалить. Чтобы добавить таймер, нажмите на кнопку \"добавить таймер\", находящуюся над списком таймеров. Каждый таймер указывает время, в которое будет отправлять уведомление о необходимости связаться с клиентами. Уведомление будет приходить только в том случае, если в базе имеются клиенты со статусом \"активное сотрудничество\" и последний звонок был более чем сутки назад. При наличии таких клиентов, на телефон будет приходить уведомление с полным списком таких клиентов. Нажатие на уведомление запустит приложение.</string>
+</resources>
